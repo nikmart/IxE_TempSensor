@@ -1,0 +1,15 @@
+{
+  "name": "IxE_Temp_Sensor",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple temperature sensor data display",
+  "main": "server.js",
+  "author": "Nik Martelaro <nmartelaro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-pre-gyp": "0.6.x",
+    "serialport": "^2.0.5",
+    "socket.io": "^1.3.7"
+  }
+}
