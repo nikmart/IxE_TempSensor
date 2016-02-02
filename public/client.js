@@ -18,15 +18,15 @@ function changeTemp(tempData) {
 
   //Add some comments about the temperature and set the color of the arc
   if (tempData < 60) {
-    ctx.fillText("Its fucking cold!",c.width/2,c.height/2+35);
+    ctx.fillText("It's fucking cold!",c.width/2,c.height/2+35);
     ctx.strokeStyle="blue";
   }
   else if (tempData > 60 && tempData < 85) {
-    ctx.fillText("Its fucking alright!",c.width/2,c.height/2+35);
+    ctx.fillText("It's fucking alright!",c.width/2,c.height/2+35);
     ctx.strokeStyle="yellow";
   }
   else {
-    ctx.fillText("Its fucking hot!",c.width/2,c.height/2+35);
+    ctx.fillText("It's fucking hot!",c.width/2,c.height/2+35);
     ctx.strokeStyle="red";
   }
 
