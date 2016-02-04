@@ -36,7 +36,7 @@ io.on('connect', function(socket) {
 
     // if you get the 'disconnect' message, say the user disconnected
     socket.on('disconnect', function() {
-        stopTempRead();
+        "A user diconnected"
     });
 });
 
@@ -44,12 +44,6 @@ function startTempRead(){
   console.log("A user connected, reading temp data");
   //send out a connect message to the serial port to start animation, avoid race condition
   serial.write('c');
-}
-
-function stopTempRead(){
-  console.log("A user disconnected, stop reading data");
-  //send out a connect message to the serial port to start animation
-  serial.write('x');
 }
 
 // start the server and say what port it is on
